@@ -1,0 +1,132 @@
+.restaurantDiv {
+    width: 100%;
+    background-color: lightgray;
+    height: 300px;
+    display: flex;
+}
+
+.leftDetails {
+    width: 20%;
+    text-align: center;
+  }
+
+  .restImg {
+      height: 250px;
+      width: 300px;
+      margin-top: 25px;
+      margin-left: 30px;
+  }
+
+  .middleDetails {
+      margin-left: 90px;
+  }
+
+  .rightDetails {
+      margin-left: 200px;
+  }
+
+  .drakGray {
+      color: gray;
+  }
+  
+  .itemsDiv {
+    width: 50%;
+    display: flex;  
+    margin-top: 25px;
+    margin-left: 40px;
+    flex-direction: column;
+  }
+
+  .categoryItems {
+      display: block;
+  }
+
+  .red{
+      color: red;
+  }
+
+  .green {
+      color: green;
+  }
+
+  
+
+  .itemName {
+    margin-left: 15px;    
+      
+  }
+
+  .itemPrice{
+      position: absolute;
+      left: 500px;
+}
+
+.addIcon {
+    position: absolute;
+    left: 600px;
+}
+
+.itemandCart {
+    display:flex;
+    flex-direction: row;
+}
+
+.cart {
+    margin-left: 150px;
+}
+
+.checkoutcart {
+    min-width: 400px;
+    min-height: 200px;
+}
+
+.shoppingCart {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.shoppingIcon {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.cartItem {
+    margin-right: 60px;
+}
+
+.cartItemType {
+    margin-right: 25px;
+}
+
+.cartItemCurrency {
+    position: absolute;
+    left: 295px;
+}
+.itemTotalPrice {
+    position: absolute;
+    left: 305px;
+}
+
+.totalAmount {
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 150px;
+}
+
+.removeIcon{
+    position: absolute;
+    left: 190px;
+
+}
+
+.addIconCart {
+    position: absolute;
+    left: 225px;
+}
+
+.itemQuantity {
+    position: absolute;
+    left: 215px;
+}
+
+

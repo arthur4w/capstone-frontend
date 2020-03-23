@@ -1,0 +1,51 @@
+.cardContainer {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.restaurantCard {
+    width: 20%;
+    margin: 15px;
+}
+
+.restaurantImage {
+    height: 140px;
+}
+
+.restaurantName {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 3px;
+    margin: 5px;
+    height: 50px;
+}
+
+.restaurantCategories {
+    text-align: justify;
+    padding: 3px;
+    margin: 5px;
+}
+
+.restaurantDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.restaurantRating {
+    background-color: #ebe860;
+    color: white;
+    padding: 5px;
+    margin: 7px;
+}
+
+.restaurantPrice {
+    padding: 5px;
+    margin: 7px;
+}
